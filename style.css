@@ -3,6 +3,12 @@ font-size: 40px;
 font-style: bold;
 }
 
+.Location container {
+position: relative;
+padding-bottom: 20px
+top: 51px;
+}
+
 .jumbotron {
 text-align: center;
 background-image: url('background.jpg'); 
@@ -41,6 +47,7 @@ width: 200px;
 border: solid;
 border-width: 3px;
 border-radius: 300px;
+right: 124px;
 }
 
 .Location {
