@@ -3,7 +3,7 @@ font-size: 40px;
 font-style: bold;
 }
 
-.Location container {
+.Location .container {
 position: relative;
 padding-bottom: 20px
 top: 51px;
