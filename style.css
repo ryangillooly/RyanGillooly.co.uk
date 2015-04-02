@@ -5,8 +5,8 @@ font-style: bold;
 
 .Location .container {
 position: relative;
-padding-bottom: 20px
-top: 51px;
+padding-bottom: 20px;
+top: 50px;
 }
 
 .jumbotron {
@@ -98,6 +98,7 @@ border-color: white;
 width: 140px;
 height: 140px;
 margin: auto;
+border-right: 11px;
 }
 
 .icon-database {
