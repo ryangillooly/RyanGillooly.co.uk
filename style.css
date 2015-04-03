@@ -1,69 +1,93 @@
-.icon-menu {
-font-size: 40px;
-font-style: bold;
-}
 
-.Location .container {
-position: relative;
-padding-bottom: 20px;
-top: 50px;
-}
+ @font-face { font-family: Chalkduster; src: url('Chalkduster.ttf'); } 
 
-.jumbotron {
-text-align: center;
-background-image: url('background.jpg'); 
-background-size: 100% 100%;
-height: 700px;
-}
-
-.jumbotron button {
-background-color: white;
-color: black;
-margin: auto;
-position: relative;
-border-radius: 50px;
-top: 120px;
-}
-
-.jumbotron h1 {
-position: relative;
-top: 63px;
-color: #333333;
-text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
-}
-
-.jumbotron h3 {
-position: relative;
-top: 86px;
+.intro h1 {
+font-family: Chalkduster;
 color: white;
-text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+font-size: 60px;
+margin-top: 7%;
+text-align: center;
 }
 
+.intro {
+display: none;
+}
 
-.jumbotron img {
+.copyright p {
 position: relative;
-top: 40px;
-height: 200px;
-width: 200px;
-border: solid;
-border-width: 3px;
-border-radius: 300px;
-right: 124px;
+color: #585858;
+top: 10px;
 }
 
-.Location {
+.copyright {
+position: absolute;
+bottom: 0px;
+color: white;
 text-align: center;
 background-color: black;
+width: 100%;
+height: 40px;
+}
+
+.second_line {
+display: none;
+font-family: Chalkduster;
+color: white;
+font-size: 30px;
+margin-top: 7%;
+text-align: center;
+}
+
+
+
+/*#contact_details {
+display: none;
+}*/
+
+/*
+.img-responsive {
+background-size: contain;
+}
+
+#myCarousel {
+position: relative;
+bottom: 20px;
+}
+
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+*/
+.navbar-nav > li > a {
+height: 50px;
+}
+
+.nav > li  a > img {
+position: relative;
+bottom: 5px;
+}
+
+.contact {
 background-size: cover;
 background-repeat: no-repeat;
 background-size: 100% 100%;
-height: 200px;
+height: auto;
+position: absolute;
+bottom: 0px;
+/*bottom: 20px;
+padding-bottom: 40px;
+padding-top: 40px;*/
 color: white;
 }
 
-.container {
-position: relative;
-padding-bottom: 20px;
+#contact li {
+list-style-type: none;
+display: flex;
+}
+
+.btn {
+background-color: white;
+color: black;
 }
 
 .Skills {
@@ -71,7 +95,8 @@ background-color: #ff0000;
 padding-top: 50px;
 height: auto;
 color: white;
-background: hsla(0,0,0,0.5);
+position: relative;
+bottom: 20px;
 }
 
 .Skills h2 {
@@ -98,7 +123,6 @@ border-color: white;
 width: 140px;
 height: 140px;
 margin: auto;
-border-right: 11px;
 }
 
 .icon-database {
@@ -157,30 +181,11 @@ position: relative;
 top: 34px;
 }
 
-.Details {
-height: 250px;
+.icon-facebook {
+height: 40px;
+width: 40px;
 }
 
-.Details .col-md-5 { 
-height: 250px;
-background-color: blue;
-}
 
-.Details .col-md-7 {
-background-color: violet;
-height: 250px;
-}
 
-.Details2 {
-height: 250px;
-}
 
-.Details2 .col-md-5 { 
-height: 250px;
-background-color: white;
-}
-
-.Details2 .col-md-7 {
-background-color: red;
-height: 250px;
-}
