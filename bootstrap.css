@@ -1390,12 +1390,11 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
 .container {
-  padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1408,7 +1407,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: auto;
   }
 }
 .container-fluid {
@@ -3963,7 +3962,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+  
   }
 }
 @media (min-width: 768px) {
